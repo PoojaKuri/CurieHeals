@@ -265,8 +265,9 @@
 
 /*** Products ***/
 .product {
-    background: linear-gradient(rgba(136, 180, 78, .1), rgba(136, 180, 78, .1)), url(../img/product-bg.png) left bottom no-repeat;
-    background-size: auto;
+    background: linear-gradient(rgba(104, 189, 208, 0.1), rgba(96, 178, 196, 0.1)),
+                url(../img/product-bg.png) center center no-repeat;
+    background-size: cover;
 }
 
 .product-carousel .owl-nav {
@@ -479,7 +480,7 @@
 /*** Footer ***/
 .footer {
     color: #B0B9AE;
-    background-color:#0b3346;
+    background-color:#20536d;
 }
 
 .footer .btn.btn-link {
