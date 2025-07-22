@@ -1,18 +1,15 @@
-<?php
-    require("connection.php");
-?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
-    <title>Prakritik Chikitsa</title>
+    <title>CurieHeals Pharamaceuticals</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+<link rel="icon" type="image/png" href="img/CURIE_HEALS_LOGO - Copy.png">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -38,17 +35,15 @@
 	<style>
 	  
 			 
-	   .navback{
-	             background-color:#15673F;<!-- Dark Green -->
-				}
+
 		.footcollor{
-				color:#E6097B;<!-- Pink -->
+				color:#cb2123;
 				}
 		.maincolor{
-					color:#15673F;
+					color:#076c9c;
 				  }
 		.heading{
-					color:#DCE386;<!-- Lime Green -->
+					color:#b6d7e6;
 				}
 	 .ct-socials {
     position: fixed;
@@ -157,33 +152,54 @@ text-decoration: none;
 </head>
 
 <body>
-    <!-- Spinner Start -->
+  <!-- Spinner Start -->
     <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+        <div class="spinner-border" style="color: #aad9ef;" role="status" style="width: 3rem; height: 3rem;"></div>
     </div>
     <!-- Spinner End -->
 
-    
+   <ul class="ct-socials">
+        <li style="background-color:hsl(199, 62%, 69%);font-size:25px;">
+           <a href="tel:919146479292" target="_blank"><i class="fa fa-phone"></i></a>
+       </li>
+        <li style="background-color:#1f6889;font-size:25px;">
+           <a href="https://api.whatsapp.com/send?phone=919146479292&text=Welcome To Prakritik Chikitsa"><i class="fa fa-whatsapp"></i></a>
+        </li>
+        
+		<li style="background-color:hsl(199, 62%, 69%);font-size:25px;">
+           <a href="https://in.linkedin.com/in/dr-darshan-chandur-296181246" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        </li>
+     </ul>
+	 <!-- <ul class="ct-socialss">
+	  <li style="background-color:#15673F;font-size:25px;float:left;">
+           <a href="contact.html" target="_blank"><h6 class="text" style="color:white;">Appointment</h6>
+		   
+       </li>
+	   
+	  </ul> -->
     <!-- Navbar Start -->
 	<!-- Navbar Start -->
     <div class="container-fluid bg-white sticky-top">
         <div class="container">
             <nav class="navbar navbar-expand-lg bg-white navbar-light py-2 py-lg-0">
                 <a href="index.html" class="navbar-brand">
-                    <img style="border-radius:20%;"class="img-fluid" src="img/logo.jpg" alt="Logo">
+                    <img style="border-radius:10%;"class="img-fluid" src="img/CURIE_HEALS_LOGO.png" alt="Logo">
+				
                 </a>
-				<h5 style="padding-left:180px;padding-top:5px;text-align:justify;" class="maincolor">Dr.Chandur's<br>Prakritik Chikitsa</h5>
+				<!-- <h5 style="padding-left:180px;padding-top:5px;text-align:justify;" class="maincolor">Dr.Chandur's<br>Prakritik Chikitsa</h5> -->
                 <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+				
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto">
-                        <a href="index.html" class="nav-item nav-link">Home</a>
-                        <a href="about.html" class="nav-item nav-link active">About</a>
-                   
-                        <a href="services.html" class="nav-item nav-link ">Specialities</a>
-                      <a href="ayurveda.html" class="nav-item nav-link">Ayurveda</a>
-                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+					   
+                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About </a>
+                        <!-- <a href="services.html" class="nav-item nav-link">Speciality</a> -->
+                        <a href="ayurveda.html" class="nav-item nav-link ">Products</a> 
+                      
+                        <a href="contact.html" class="nav-item nav-link">Contact </a>
                     </div>
                  
                 </div>
@@ -196,7 +212,7 @@ text-decoration: none;
     <!-- Page Header Start -->
     <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container text-center py-5">
-            <h1 class="display-2 text-dark mb-4 animated slideInDown maincolor">About Us</h1>
+            <h1 class="display-2  mb-4 animated slideInDown maincolor" style="color: #ffffff; padding-left: 40%;">About Us</h1>
             
            
         </div>
@@ -204,24 +220,24 @@ text-decoration: none;
     <!-- Page Header End -->
 
        <ul class="ct-socials">
-        <li style="background-color:#DCE386;font-size:25px;">
+        <li style="background-color:hsl(199, 62%, 69%);font-size:25px;">
            <a href="tel:919146479292" target="_blank"><i class="fa fa-phone"></i></a>
        </li>
-        <li style="background-color:#15673F;font-size:25px;">
+        <li style="background-color:#1f6889;font-size:25px;">
            <a href="https://api.whatsapp.com/send?phone=919146479292&text=Welcome To Prakritik Chikitsa"><i class="fa fa-whatsapp"></i></a>
         </li>
         
-		<li style="background-color:#DCE386;font-size:25px;">
+		<li style="background-color:hsl(199, 62%, 69%);font-size:25px;">
            <a href="https://in.linkedin.com/in/dr-darshan-chandur-296181246" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
         </li>
      </ul>
-	 <ul class="ct-socialss">
+	 <!-- <ul class="ct-socialss">
 	  <li style="background-color:#15673F;font-size:25px;float:left;">
            <a href="contact.html" target="_blank"><h6 class="text" style="color:white;">Appointment</h6></a>
 		   
        </li>
 	   
-	  </ul>
+	  </ul> -->
     <!-- About Start -->
 	<div class="container-xxl py-5">
         <div class="container">
@@ -229,13 +245,15 @@ text-decoration: none;
                
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                     <div class="section-title">
-                          <h1 style="color:#0A8758;"class="display-6">Dr. Darshan Chandur</h1>
+                          <h1 style="color:#076c9c;"class="display-6">Dr. Tilak kumar V</h1>
 						  </div>
-						  <p class ="md-0"style="text-align:justify;color:black;"><b>Dr. Darshan</b> is a successful entrepreneur and visionary who has reached new heights in the field of Ayurveda. Popularly known as Dr.Chandur is an expert in <b>Health Coach, an Ayurveda physician with 20-plus years of clinical experience,</b> and a bestselling author of <b>‘’Ancient Secrets Of Healthy Living’’</b>. He started guiding and training doctors with Core panchakarma training. He has published various articles in national newspapers and given numerous TV programs on health and wellness. He was the Guest speaker at the International Healthcare Tourism Congress ( IHTC- 2018). And a Radio talk show in Houston, USA about Ayurveda for lifestyle diseases. He also presented many research papers, like on ‘Efficacy of Ayurveda Medicines in Diabetes Mellitus.</p>
+						  <p class ="md-0"style="text-align:justify;color:black;"><b>Dr. Tilk</b>is a dedicated healthcare professional and dynamic entrepreneur who is making remarkable strides in the pharmaceutical distribution industry. As the founder and owner of <b> CurieHeals Pharmaceuticals Pvt. Ltd.</b>, he has built a reputable and growing name in the field of medicine distribution, especially in promoting wellness through ethical and <b>timely delivery of high-quality </b>medicines.
+
+With a background as a qualified<b>medical doctor</b>, Dr. Tilak combines his clinical expertise with a deep understanding of <b>healthcare logistics</b > to bridge the gap between medicine manufacturers and healthcare providers. His commitment to patient-centered care extends beyond the clinic—his vision is to ensure that <b>critical medications reach</b> even the most underserved regions promptly and efficiently.</p>
                    </div>
 					
                   <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s"> 
-				 <img style="width:100%;height:500px;border-radius:20%" data-wow-delay="0.2s" src="img/doctor.jpg" alt="">
+				 <img style="width:100%;height:500px;border-radius:20%" data-wow-delay="0.2s" src="img/doctor.jpeg" alt="">
                   
                 </div>
 			</div>
@@ -245,16 +263,18 @@ text-decoration: none;
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
-                    <img style="width:100%;height:500px;" data-wow-delay="0.2s" src="img/hospital.jpg" alt="">
+                    <img style="width:100%;height:500px;" data-wow-delay="0.2s" src="img/d8.jpg" alt="">
                
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                     <div class="section-title">
-                          <h1 style="color:#0A8758;"class="display-6">Prakritik Chikitsa</h1>
+                          <h1 style="color:#076c9c;"class="display-6">CurieHeals Pharamaceuticals</h1>
                     </div>
                    
-				 <p class ="md-0"style="text-align:justify;color:black;"><b style="color:black;">Prakritik Chikitsa</b> plays a key role in promoting holistic wellness which encompasses five major dimensions of complete well-being – Mental, Physical, Spiritual, Social, and Lifestyle. We offer complete health and wellness solutions under one roof. Our premium Ayurveda, Yoga and Naturopathy retreat with international standards offers a truly perennial dreamland-like ambiance overlooking a hill on 3 sides and a lake on the other. 
-                    With the tagline <b style="color:black;">AYURVEDA IS SCIENCE OF LIFE</b> the concept of the Prakritik Chikitsa Retreat revolves around <b style="color:black;">“Optimum Healthcare”</b> in creating the kind of healthy society that we all yearn for. We strongly believe that being healthy extends beyond the realms of physical well-being. Our focus is on Optimum Health which encompasses physical, psychological, and spiritual wellness.</p>   </div>
+				 <p class ="md-0"style="text-align:justify;color:black;"><b style="color:black;"> CurieHeals Pharmaceuticals Pvt. Ltd.</b> is committed to revolutionizing medicine distribution by ensuring timely, ethical, and efficient access to <b>high-quality pharmaceutical products</b> across healthcare sectors. With a vision rooted in <b> reliability and responsibility</b>, CurieHeals plays a vital role in strengthening the <b>healthcare delivery chain—connecting manufacturers </b>to hospitals, clinics, wellness centers, and pharmacies.
+
+Our focus goes beyond mere logistics; we aim to contribute to a <b>healthier society by making essential medicines available </b>with precision and integrity. Built on strong ethical values and guided by medical expertise, CurieHeals operates with a deep understanding of the pharmaceutical industry's critical role in preventive and <b>curative care.</b> Strategically located and backed by a robust supply network, our <b>distribution model supports optimum healthcare delivery</b>, especially for chronic and lifestyle-related conditions. Whether it's <b>life-saving drugs, wellness supplements, or Ayurvedic formulations</b>, we ensure that every product delivered meets the highest standards of safety and efficacy.
+                     <b style="color:black;"></b> </p>   </div>
             </div>
         </div>
     </div>
@@ -264,37 +284,40 @@ text-decoration: none;
                 <div class="col-lg-6">
                     <div class="row g-3">
                         <div class="col-6 text-end">
-                            <img class="img-fluid bg-white w-100 mb-3 wow fadeIn" data-wow-delay="0.1s" src="img/about-1.jpg" alt="">
-                            <img class="img-fluid bg-white w-50 wow fadeIn" data-wow-delay="0.2s" src="img/about-3.jpg" alt="">
+                            <img class="img-fluid bg-white w-100 mb-3 wow fadeIn" data-wow-delay="0.1s" src="img/d2.jpg" alt="">
+                            <img class="img-fluid bg-white w-50 wow fadeIn" data-wow-delay="0.2s" src="img/d3.webp" alt="">
                         </div>
                         <div class="col-6">
-                            <img class="img-fluid bg-white w-50 mb-3 wow fadeIn" data-wow-delay="0.3s" src="img/about-4.jpg" alt="">
-                            <img class="img-fluid bg-white w-100 wow fadeIn" data-wow-delay="0.4s" src="img/about-2.jpg" alt="">
+                            <img class="img-fluid bg-white w-50 mb-3 wow fadeIn" data-wow-delay="0.3s" src="img/d5.avif" alt="">
+                            <img class="img-fluid bg-white w-100 wow fadeIn" data-wow-delay="0.4s" src="img/d44.jpg" alt="">
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                     <div class="section-title">
-                        <p class="fs-5 fw-medium fst-italic text-primary">About Us</p>
-                        <h1 class="display-6"style="color:#0A8758;">Dr.Chandur's Prakritik Chikitsa</h1>
+                        <p class="fs-5 fw-medium fst-italic " style="color:#33a1d5;">About Us</p>
+                        <h1 class="display-6"style="color:#076c9c;">CurieHeals Pharamaceuticals</h1>
                     </div>
                     <div class="row g-3 mb-4">
                         <div class="col-sm-4">
-                            <img class="img-fluid bg-white w-100" src="img/about-5.jpg" alt="">
+                            <img class="img-fluid bg-white w-100" src="img/d6.jpg" alt="">
                         </div>
                         <div class="col-sm-8">
-                            <h5 style="color:#0A8758;">Mission</h5>
-                            <p class="mb-0"style="text-align:justify;color:black;">Providing excellent medical treatment, by a team of dedicated staff and creating a premier, patient focused and integrated health care delivery system and achieving highest degree of patient satisfaction.</p>
+                            <h5 style="color:#076c9c;">Mission</h5>
+                            <p class="mb-0"style="text-align:justify;color:black;">Delivering trusted, high-quality medicines with speed and care.
+Empowering healthcare through reliable distribution and ethical practices.</p>
                         </div>
                     </div>
                     <div class="border-top mb-4"></div>
                     <div class="row g-3">
                         <div class="col-sm-8">
-                            <h5 style="color:#0A8758;">Vision</h5>
-                            <p class="mb-0"style="text-align:justify;color:black;">The aim of the hospital is to provide comprehensive health care to all sections of society through personalized care by highly competent professionals. It will remain our constant endeavour to improve the quality of our service to make it better. We cherish the ideal of ensuring the best treatment to our patients.</p>
+                            <h5 style="color:#076c9c;">Vision</h5>
+                            <p class="mb-0"style="text-align:justify;color:black;">To be a leading force in pharmaceutical distribution, ensuring access to quality medicines for all.
+We envision a healthier world through innovation, trust, and nationwide reach.
+</p>
                         </div>
                         <div class="col-sm-4">
-                            <img class="img-fluid bg-white w-100" src="img/about-6.jpg" alt="">
+                            <img class="img-fluid bg-white w-100" src="img/d7.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -303,30 +326,29 @@ text-decoration: none;
     </div>
 	
     <!-- About End -->
-
-<!-- Footer Start -->
-<div class="container-fluid  footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
+ <!-- Footer Start -->
+    <div class="container-fluid  footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5 navback">
             <div class="row g-5 ">
                 <div class="col-lg-3 col-md-6">
                     <h4 class="heading">Our hospital</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt footcollor"></i>&emsp; Shree Laxmi Newas, Doctor D P Chandur, near Mahaver Garden, opp. Pendharker, Dalan, Kolhapur, Maharashtra 416001 </p>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt footcollor"></i>&emsp;Shree Laxmi Newas, Near Mahaveer Garden,Opp Pendharkar dalan, Kolhapur,416001 </p>
                     <p class="mb-2"><i class="fa fa-phone-alt footcollor"></i>&emsp;0231-265 4192</p>
 					  <p class="mb-2"><i class="fa fa-mobile footcollor" aria-hidden="true"></i>&emsp;+91 9146479292</p>
                   
                     <p class="mb-2"><i class="fa fa-envelope footcollor"></i>&emsp;prakruticchikitsa@gmail.com</p>
                     <div class="d-flex pt-3">
                         
-                        <a class="btn btn-square footcollor rounded-circle me-2" href="https://www.facebook.com/Prakruteechikitsa/"><i class="fab fa-facebook-f"></i></a>
-                     
-                        <a class="btn btn-square footcollor rounded-circle me-2" href="https://in.linkedin.com/in/dr-darshan-chandur-296181246"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-square footcollor rounded-circle me-2" href="https://www.facebook.com/Prakruteechikitsa/" style="background-color: #aad9ef;"><i class="fab fa-facebook-f"></i></a>
+                       
+                        <a class="btn btn-square footcollor rounded-circle me-2" href="https://in.linkedin.com/in/dr-darshan-chandur-296181246" style="background-color: #aad9ef;"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 ">
                     <h4 class="heading ">Quick Links</h4>
-                    <a style="background-color:#15673F;"class="btn btn-link fa-map-marker-alt" href="about.html">About Us</a>
-                    <a style="background-color:#15673F;"class="btn btn-link fa-map-marker-alt" href="contact.html">Contact Us</a>
-                    <a style="background-color:#15673F;"class="btn btn-link fa-map-marker-alt" href="services.html">Speciality</a>
+                    <a class="btn btn-link fa-map-marker-alt" href="about.html">About Us</a>
+                    <a class="btn btn-link fa-map-marker-alt" href="contact.php">Contact Us</a>
+                    <a class="btn btn-link fa-map-marker-alt" href="services.html">Our Speciality</a>
                    
                 </div>
                 <div class="col-lg-3 col-md-6">
@@ -339,23 +361,13 @@ text-decoration: none;
                     <h6 class="text-light">Closed</h6>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h4 class="heading">Appointment</h4>
-                    <p>Easy online booking from anywhere,anytime.</p>
-                    <div class="position-relative w-100">
-					    <form
-                             action="https://formspree.io/f/xknaddka"
-                              method="POST"
-                        >
-                        <input style="color:black;"class="form-control  w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email"  name="Texts">
-                        <button type="button submit" class="btn footcollor py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
-						</form>
-                    </div>
+                    <h4 class="heading"></h4>
+                    <img src="img/CURIE_HEALS_LOGO.png" alt="" width="80%">
                 </div>
             </div>
         </div>
     </div>
     <!-- Footer End -->
-    
 
 
     <!-- Copyright Start -->
@@ -363,7 +375,7 @@ text-decoration: none;
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a class="footcollor" href="index.html">Prakritik Chikitsa</a><p>All Right Reserved</p>
+                    &copy; <a class="footcollor" href="index.html">CurieHeals Pharmaceuticals</a><p>All Right Reserved</p>
                 </div>
                
             </div>
@@ -373,7 +385,7 @@ text-decoration: none;
 
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="footcollor bi-arrow-up"></i></a>
+    <a href="#" class="btn btn-lg  btn-lg-square rounded-circle back-to-top" style="background-color: #59b7e3;"><i class="footcollor bi-arrow-up"></i></a>
 
 
     <!-- JavaScript Libraries -->
