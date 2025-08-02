@@ -255,13 +255,13 @@ text-decoration: none;
 
 
 	</style>
-</head>
+</head>tfftcccf
 
 <body>
   <!-- Spinner Start -->
-    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <!-- <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-border" style="color: #aad9ef;" role="status" style="width: 3rem; height: 3rem;"></div>
-    </div>
+    </div> -->
     <!-- Spinner End -->
 
    <ul class="ct-socials">
@@ -1533,7 +1533,7 @@ text-decoration: none;
                     <!-- <p class="mb-2"><i class="fa fa-phone-alt footcollor"></i>&emsp;</p> -->
 					  <p class="mb-2"><i class="fa fa-mobile footcollor" aria-hidden="true"></i>&emsp;+91 9380824939</p>
                   
-                    <p class="mb-2"><i class="fa fa-envelope footcollor"></i>&emsp;prakruticchikitsa@gmail.com</p>
+                    <p class="mb-2"><i class="fa fa-envelope footcollor"></i>&emsp;curieheals@gmail.com</p>
                     <div class="d-flex pt-3">
                         
                         <a class="btn btn-square footcollor rounded-circle me-2" href="https://www.facebook.com/Prakruteechikitsa/" style="background-color: #aad9ef;"><i class="fab fa-facebook-f"></i></a>
@@ -1607,6 +1607,24 @@ text-decoration: none;
         description.style.display = 'flex';
         button.textContent = 'Hide Description';
     }
+}
+
+function showDescription(id) {
+    document.getElementById(id).style.display = 'flex';
+}
+function hideDescription(id) {
+    document.getElementById(id).style.display = 'none';
+}
+
+function showFullImage(imageSrc) {
+    const modal = document.getElementById('imageModal');
+    const modalImage = document.getElementById('modalImage');
+
+    modal.style.display = 'flex';  // Show modal
+    modalImage.src = imageSrc;    // Set the clicked image to modal image
+
+    // Set initial small size for the image
+    modalImage.style.transform = 'scale(0.5)';  // Start with 50% zoom (small)
 }
    </script>
    
